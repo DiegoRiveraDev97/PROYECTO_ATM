@@ -1,0 +1,429 @@
+
+
+.contenedor{
+    
+    background-color: #E1F1FA;
+    display: flex;
+    height: 620px;
+    width: 850px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 30%;
+    border-style: solid;
+}
+.segundo{
+    background-color: #4271FF;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 10%;
+    border-style: solid;
+   
+    
+}
+.rtm1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+    border-style: solid;
+    border-color: seashell;
+}
+.slogan{
+   font-family:Arial, Helvetica, sans-serif; 
+   margin: 10px;
+   font-size: 20px;
+}
+.btnstart{
+    width: 30%;
+    margin: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: seashell;
+
+}
+.btnstart:hover{
+    transform: scale(0.9,0.9);
+}
+
+.containerbody{
+    background-color: #E1F1FA;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    padding: 3px;
+    align-items: center;
+}
+footer{
+    max-width: 100%;
+    background-color: #202020;
+    color: white;
+
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1600px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    
+}
+.container-body{
+    display: flex;
+    justify-content: center;
+}
+.column1{
+    max-width: 400px;
+}
+.column1 h1{
+    display: flex;
+    font-size: 22px;
+}
+.column1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+.column2{
+    max-width: 400px;
+}
+.column2 h1{
+    font-size: 22px;
+}
+.row{
+margin-top: 20px;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #c7c7c7;
+}
+
+.column3{
+    max-width: 400px;
+}
+.column3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+
+}
+.containerfooter{
+    width: 97%;
+    background:#101010;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.copyright{
+    color: #c7c7c7;
+}
+.copyright a{
+    text-decoration: none;
+    color: #c7c7c7;
+    font-weight: bold;
+}
+.information a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+@media (min-width:100px){
+    .contenedor{
+    display: inline-flex;
+    }
+
+}
+
+/*Desde aqui para abajo se encuentra el codigo css para registro.HTML*/
+
+.btn-neon{
+    margin-top: 4px;
+    position:relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #E1F1FA;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-neon:hover{
+    background:#0028ff ;
+    box-shadow: 0 0 10px #0028ff, 0 0 40px #0028ff, 0 0 80px #0028ff;
+    transition-delay: 1s;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#0028ff);
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#0028ff);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+    
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#0028ff);
+}
+.btn-neon:hover #span2{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+    
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#0028ff);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+    
+}
+
+.selecontenedor{
+    background-color: #E1F1FA;
+    height: 620px;
+    width: 850px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 30%;
+    border-style: solid;
+}
+.selecinterno{
+    background-color: #4271FF;
+    height: 80%;
+    
+    padding-left: 10%;
+    margin: 50px;
+    border-radius: 10%; 
+    border-style: solid;
+    
+}
+
+input.placa{
+    margin-top: 10%;
+    margin-right: 50%;
+    border-bottom-style:inset;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+input.intoname{
+      
+    margin-right: 50%;
+    border-bottom-style:inset;
+    padding: 20px;
+    margin-left: 60%;
+    border-radius: 10px;  
+}
+.intoname:hover{
+    background: #E1F1FA;
+}
+.placa:hover{
+    background: #E1F1FA;
+}
+.seleccione{
+    margin-right: 10%;
+    font-family:sans-serif;
+    font-size: 22px;
+    position: inherit;
+    display: grid;
+    grid-template-rows: 3 ;
+   
+}
+.vehiculos{
+    width: 80%;
+    margin-right: 10%;
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px;
+    display: flex;
+     
+}
+
+.vehiculos div{
+    margin: 10px;
+    border-radius: 50px;
+}
+.vehiculos div:hover{
+ transform: scale(1.1,1.1);
+}
+
+.moto{
+    
+    border-style: solid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    float:left;
+    width: 100%;
+    border-color: #0300F5;
+
+}
+
+.moto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+
+}
+.moto img:hover{
+transform: scale(1.1,1.1);
+}
+
+.sencillo{
+    
+    border-style: solid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    float:left;
+    border-color: #0300F5;
+
+
+}
+.sencillo img{
+width: 100%;
+height: 100%;
+border-radius: 50px;
+}
+
+.sencillo img:hover{
+    transform: scale(1.1,1.1);
+}
+.pesado{
+    border-style: solid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    float: left;
+    width: 100%;
+    border-color: #0300F5;
+
+}
+.pesado img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.pesado img:hover{
+    transform: scale(1.1,1.1);
+}
+
+/*Desde aqui para abajo se encuentra el codigo css para rtm_Motocicleta.HTML*/
+
+.conte_principal_moto{
+    background-color: #E1F1FA;
+    height: 620px;
+    width: 850px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 30%;
+
+}
+.conte_interno_moto{
+    background-color: #4271FF;
+    height: 80%;
+   
+    padding-left: 32%;
+    margin: 50px;
+    border-radius: 10%; 
+
+}
+/*Desde aqui para abajo se encuentra el codigo css para Sencillo.HTML*/
+
+.conte_principal_sencillo{
+    background-color: #E1F1FA;
+    height: 620px;
+    width: 850px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 30%;
+}
+.conte_interno_sencillo{
+    background-color: #4271FF;
+    height: 80%;
+   
+    padding-left: 32%;
+    margin: 50px;
+    border-radius: 10%; 
+}
+/*Desde aqui para abajo se encuentra el codigo css para rtm_llantadoble.HTML*/
+
+.conte_principal_llantadoble{
+    background-color: #E1F1FA;
+    height: 620px;
+    width: 850px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 30%;
+}
+.conte_interno_llantadoble{
+    background-color: #4271FF;
+    height: 80%;
+   
+    padding-left: 32%;
+    margin: 50px;
+    border-radius: 10%;
+}
