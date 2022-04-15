@@ -1,6 +1,4 @@
-.miguel_estilo{
 
-}
 
 .contenedor{
     
@@ -261,20 +259,19 @@ margin-top: 20px;
 }
 
 input.placa{
-    margin-top: 10%;
-    margin-right: 50%;
-    border-bottom-style:inset;
+    margin-right: 10%;
+    border-bottom-style: inset;
     padding: 20px;
+    /* margin-left: 0%; */
     border-radius: 10px;
 
 }
-input.intoname{
-      
-    margin-right: 50%;
-    border-bottom-style:inset;
+input.intoname{ 
+    margin-right: 10%;
+    border-bottom-style: inset;
     padding: 20px;
-    margin-left: 60%;
-    border-radius: 10px;  
+    /* margin-left: 0%; */
+    border-radius: 10px; 
 }
 .intoname:hover{
     background: #E1F1FA;

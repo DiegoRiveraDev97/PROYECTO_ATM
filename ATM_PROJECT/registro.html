@@ -1,63 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="utf-8">
-    <meta name="description"  content="revision">
-    <meta name="author" content="Diego Rivera">
-    <meta name="keyword" content="revision,alistamiento,tecnomecanica">
-    <title>Registro_MyRTM</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-
-<body background="imagenesrtm/rtm1.0.png">
-
-    <center><div class="selecontenedor">
-        
-        <div class="selecinterno">
-
-            <div class="vehiculos">
-                
-             <center><a href="#" class="btn-neon">
-                <span id="span1"></span>
-                <span id="span2"></span>
-                <span id="span3"></span>
-                <span id="span4"></span>
-                  Volver</a></center>
-            
-             </div><label><input class="placa" type="text" placeholder="Ingrese la Placa"></label>
-             <label><input class="intoname" type="text" placeholder="Ingrese su Nombre"></label>
-             <p class="seleccione">A continuacion Seleccione el Tipo de vehiculo a Inspeccionar</p>
-
-             
-                <div class="moto"><a href="Motocicleta.html"><img class="img_moto" src="imagenesrtm/moto.jpg" ></a></div>
-
-                <div class="sencillo"><a href="Sencillo.html"><img class="img_sencillo" src="imagenesrtm/sencillonick.jpg"></a></div>
-
-                <div class="pesado"><a href="LlantaDoble.html"><img class="img_pesado" src="imagenesrtm/mula2.jpg" ></a></img></div>
-
-             
-
-                
-
-              
-                
-
-
-            </div>
-
-
-
-        </div>
-
-        
-
-
-    </div></center>
-
-
-
-</body>
-
-
-
-</html>
+	<html lang="es">
+		<head>
+			<meta charset="utf-8">
+				<meta name="description" content="revision">
+				<meta name="author" content="Diego Rivera">
+				<meta name="keyword" content="revision,alistamiento,tecnomecanica">
+				<title>Registro_MyRTM</title>
+				<link rel="stylesheet" href="estilos.css">
+				<link rel="stylesheet" href="css/bootstrap.min.css" />
+		</head>
+							<body background="imagenesrtm/rtm1.0.png">
+								<center>
+									<div class="selecontenedor">
+										<div class="selecinterno">
+											<div class="vehiculos">
+												<center>
+													<a href="#" class="btn-neon">
+														<span id="span1"/>
+														<span id="span2"/>
+														<span id="span3"/>
+														<span id="span4"/>
+														Volver</a>
+												</center>
+											</div>
+											<label>
+												<input class="placa" type="text" placeholder="Ingrese la Placa"></label>
+												<label>
+													<input class="intoname" type="text" placeholder="Ingrese su Nombre"></label>
+													<p class="seleccione">A continuacion Seleccione el Tipo de vehiculo a Inspeccionar</p>
+													<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+														<div class="col moto">
+																<img class="img_moto" src="imagenesrtm/moto.jpg"></img>
+														</div>
+														
+														<div class="col sencillo">
+																<img class="img_sencillo" src="imagenesrtm/sencillonick.jpg"></img>
+														</div>
+														
+														<div class="col pesado">
+																<img class="img_moto" src="imagenesrtm/mula2.jpg"></img>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</center>
+									<script src="~/lib/jquery/dist/jquery.min.js"/>
+									<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"/>
+									<script src="~/js/site.js" asp-append-version="true"/>
+								</body>
+							</html>
