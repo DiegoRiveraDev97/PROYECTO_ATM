@@ -1,4 +1,7 @@
 /*codigo miguel*/
+.agrandar-sobre:hover > svg{
+    transform: scale(2,2);
+}
 
 .fondo-negro{
 	background-color: rgb(32,32,32);
@@ -8,6 +11,10 @@
 	background-color: rgba(5,5,5,0.9);
 }
 
+.fondo-azul{
+	background-color: rgba(61, 173, 255, 0.9);
+}
+
 .redondear-bordes{
 	border-radius: 50px;
 }
@@ -15,6 +22,11 @@
 .separacion-horizontal{
     margin-left: 60px;
     margin-right: 60px;
+}
+
+.separacion-vertical{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /*fin codigo miguel*/
