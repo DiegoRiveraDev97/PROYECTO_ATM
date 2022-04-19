@@ -1,5 +1,23 @@
+/*codigo miguel*/
 
+.fondo-negro{
+	background-color: rgb(32,32,32);
+}
 
+.fondo-trasparencia{
+	background-color: rgba(5,5,5,0.9);
+}
+
+.redondear-bordes{
+	border-radius: 50px;
+}
+
+.separacion-horizontal{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/*fin codigo miguel*/
 .contenedor{
     
     background-color: #E1F1FA;
