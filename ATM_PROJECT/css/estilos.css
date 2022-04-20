@@ -29,6 +29,21 @@
     margin-bottom: 60px;
 }
 
+.check-lista{
+    margin-right: 20px;
+    transform: scale(1.5);
+}
+
+.letra-lista{
+    font-size: 30px;
+}
+
+.boton-custom{
+    margin-top: 20px;
+    max-width: 400px;
+    font-size: 30px;
+}
+
 /*fin codigo miguel*/
 .contenedor{
     

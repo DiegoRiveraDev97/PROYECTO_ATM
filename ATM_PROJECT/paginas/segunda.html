@@ -15,7 +15,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    
+
 
     <style>
         .bd-placeholder-img {
@@ -66,71 +66,108 @@
         </symbol>
     </svg>
     <div class="text-dark py-4 my-5 text-center fondo-trasparencia redondear-bordes separacion-horizontal">
+        <h1 class="display-5 fw-bold text-white justify-content-center">Alistamiento del vehículo</h1>
         <div class="d-flex gap-5 justify-content-center">
-            
-            <div class="list-group mx-0">
-                <h1 class="display-5 fw-bold text-white">Alistamiento del vehículo</h1>
-                <label class="list-group-item d-flex gap-2">
-                    <input class="form-check-input flex-shrink-0" type="checkbox" value="" checked>
-                    <span>
-                        Vehiculo limpio
-                        <small class="d-block text-muted">With support text underneath to add more detail</small>
-                    </span>
-                </label>
-                <label class="list-group-item d-flex gap-2">
-                    <input class="form-check-input flex-shrink-0" type="checkbox" value="">
-                    <span class="text-center">
-                        Vehiculo Vacio
-                        <small class="d-block text-muted">Some other text goes here</small>
-                    </span>
-                </label>
-                <label class="list-group-item d-flex gap-2">
-                    <input class="form-check-input flex-shrink-0" type="checkbox" value="">
-                    <span>
-                        Sin tapacubos en los rines
-                        <small class="d-block text-muted">And we end with another snippet of text</small>
-                    </span>
-                </label>
-                <label class="list-group-item d-flex gap-2">
-                    <input class="form-check-input flex-shrink-0" type="checkbox" value="">
-                    <span>
-                        Alarma desactivada
-                        <small class="d-block text-muted">And we end with another snippet of text</small>
-                    </span>
-                </label>
-            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item text-start fondo-azul letra-lista"><input
+                        class="form-check-input flex-shrink-0 check-lista" type="checkbox" value=""> Vehiculo limpio
+                </li>
+                <li class="list-group-item text-start fondo-azul letra-lista"><input
+                        class="form-check-input flex-shrink-0 check-lista" type="checkbox" value=""> Vehiculo vacio</li>
+                <li class="list-group-item text-start fondo-azul letra-lista"><input
+                        class="form-check-input flex-shrink-0 check-lista" type="checkbox" value=""> Sin tapacubos en
+                    los rines</li>
+                <li class="list-group-item text-start fondo-azul letra-lista"><input
+                        class="form-check-input flex-shrink-0 check-lista" type="checkbox" value=""> Alarma desactivada
+                </li>
+            </ul>
+
         </div>
-        <!--
-        <div class="list-group mx-0">
-            <label class="list-group-item d-flex gap-2">
-                <input class="form-check-input flex-shrink-0" type="radio" name="listGroupRadios" id="listGroupRadios1"
-                    value="" checked>
-                <span>
-                    First radio
-                    <small class="d-block text-muted">With support text underneath to add more detail</small>
-                </span>
-            </label>
-            <label class="list-group-item d-flex gap-2">
-                <input class="form-check-input flex-shrink-0" type="radio" name="listGroupRadios" id="listGroupRadios2"
-                    value="">
-                <span>
-                    Second radio
-                    <small class="d-block text-muted">Some other text goes here</small>
-                </span>
-            </label>
-            <label class="list-group-item d-flex gap-2">
-                <input class="form-check-input flex-shrink-0" type="radio" name="listGroupRadios" id="listGroupRadios3"
-                    value="">
-                <span>
-                    Third radio
-                    <small class="d-block text-muted">And we end with another snippet of text</small>
-                </span>
-            </label>
+        <button class="w-100 btn btn-lg btn-primary boton-custom">Continuar</button>
+    </div>
+    <div class="b-example-divider"></div>
+
+    <!--Inicio del footer-->
+
+    <div class="text-secondary text-center fondo-negro">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-2">
+                        <h5>Redes Sociales</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted agrandar-sobre"><svg
+                                        class="bi" width="24" height="24">
+                                        <use xlink:href="#twitter" />
+                                    </svg> Twitter</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><svg class="bi"
+                                        width="24" height="24">
+                                        <use xlink:href="#instagram" />
+                                    </svg> Instagram</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><svg class="bi"
+                                        width="24" height="24">
+                                        <use xlink:href="#facebook" />
+                                    </svg> Facebook</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 offset-1">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of whats new and exciting from us.</p>
+                            <div class="d-flex w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook" />
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </footer>
         </div>
-        -->
     </div>
 
-    <div class="b-example-divider"></div>
+    <!--Fin del footer-->
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
